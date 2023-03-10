@@ -1,0 +1,155 @@
+.group1{
+    height: 789.19px;
+
+    #{&}_image1{
+        position: absolute;
+        height: 500px;
+        width: 266px;
+        z-index: 0;
+         top: 325px;
+    
+            
+        
+    //    }
+    @media  (max-width: 768px) {
+      width: 240px;
+    height: 330px;
+     
+      top: 375px;
+ }
+ @media  (max-width: 576px) {
+  width: 180px;
+height: 310px;
+ 
+  top: 390px;
+}
+        
+}
+    #{&}_image2{
+        position: absolute;
+        width: 643.63px;
+        height: 550px;
+       //top: 275px;
+        z-index: -1;
+        @media  (max-width: 1200px) {
+          
+          width:550px ;
+           height: 550px;
+                    
+                
+              }
+              @media  (max-width: 768px) {
+                 width: 60%;
+                //width:500px ;
+                 height: 40%;
+                 top: 405px;
+                          
+                      
+                    }
+                    @media  (max-width: 576px) {
+                      width: 60%;
+                     //width:500px ;
+                      height: 45%;
+                      top: 365px;
+                               
+                           
+                         }
+    }
+
+    #{&}_heading{
+      
+ position: absolute;
+margin-left: 40%;
+top: 200px;
+font-family: 'Rubik';
+font-size: 56px;
+color: #000000;   
+
+@media  (max-width: 1400px) {
+        
+  max-width: 300px;
+  font-size: 40px;
+  
+  top: 150px;
+
+  
+
+}
+@media  (max-width: 1080px) {
+  max-width: 300px;
+  font-size: 40px;
+  //left: 500px;
+  top: 150px;
+}
+@media  (max-width: 768px) {
+  max-width: 300px;
+  font-size: 30px;
+ // left: 400px;
+  top: 150px;
+}
+  
+
+}
+#{&}_para{
+position: absolute;
+width: 544px;
+height: 67px;
+//left: 1250px;
+margin-left: 40%;
+top: 400px;
+font-family: 'Rubik';
+font-size: 18px;
+color: #2C2C2C;   
+// 
+@media  (max-width: 1400px) {
+        
+  max-width: 300px;
+  font-size: 20px;
+  //left: 800px;
+  top: 300px;
+}
+@media  (max-width: 1080px) {
+        
+  max-width: 300px;
+  font-size: 25px;
+ // left: 500px;
+  top: 290px;
+
+}
+@media  (max-width: 768px) {
+        
+  max-width: 300px;
+  font-size: 20px;
+  //left: 400px;
+  top: 290px;
+
+}
+
+}
+
+#{&}_image3{
+position: absolute;
+width: 207px;
+height: 249px;
+top: 600px;
+//right: -3%;
+right: -5vw;
+bottom: 0; 
+@media  (max-width: 576px) {
+    width: 150px;
+    top: 580px;
+    height: 150px;
+  }
+  @media  (max-width: 768px) {
+    width: 170px;
+    top: 550px;
+    height: 150px;
+    
+  }
+}
+}
+
+
+
+
+

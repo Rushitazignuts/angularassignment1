@@ -1,0 +1,80 @@
+.tc{
+    margin-top: 120px;
+}
+
+
+.trainingImg{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-left: 80px;
+  
+    
+ }
+ .f4{
+    margin-top: 100px;
+ }
+ @media  (max-width: 1200px) {
+    .f4 {
+       margin-top: 50px;
+    }
+  }
+  @media  (max-width: 768px) {
+    .f4 {
+       margin-top: 30px;
+    }
+  }
+ 
+ 
+ 
+  
+  @media  (max-width: 1200px) {
+    .trainingImg {
+     height:260px ;
+     width:300px;
+    }
+  }
+  @media  (max-width: 992px) {
+    .trainingImg {
+     height:230px ;
+     width:250px;
+     margin-left: 70px;
+     
+    }
+  }
+  @media  (max-width: 768px) {
+    .trainingImg {
+     height:190px ;
+     width:200px;
+     margin-left: 40px;
+     
+    }
+  }
+
+
+  @media  (max-width: 992px) {
+    .tpara {
+     font-size: 13px;
+    }
+  }
+  @media  (max-width: 768px) {
+    .tpara {
+     font-size: 13px;
+     left: 100;
+    }
+  }
+
+  @media  (max-width: 992px) {
+    .tc {
+   
+        margin-top: 40px;
+    }
+  }
+ 
+  @media  (max-width: 768px) {
+    .tc {
+   
+        margin-top: 20px;
+    }
+  }
+  

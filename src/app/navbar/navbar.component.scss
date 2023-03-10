@@ -1,0 +1,13 @@
+
+.navbar{
+    float: right;
+    margin-top: 20px;
+    margin-right: 220px;
+   }
+   
+   @media  (max-width: 768px) {
+    .navbar {
+        margin-right: 70px;
+    }
+  }
+

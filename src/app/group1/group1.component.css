@@ -1,0 +1,132 @@
+.group1 {
+  height: 789.19px;
+}
+.group1 .group1_image1 {
+  position: absolute;
+  height: 500px;
+  width: 266px;
+  z-index: 0;
+  top: 325px;
+}
+@media (max-width: 768px) {
+  .group1 .group1_image1 {
+    width: 240px;
+    height: 330px;
+    top: 375px;
+  }
+}
+@media (max-width: 576px) {
+  .group1 .group1_image1 {
+    width: 180px;
+    height: 310px;
+    top: 390px;
+  }
+}
+.group1 .group1_image2 {
+  position: absolute;
+  width: 643.63px;
+  height: 550px;
+  z-index: -1;
+}
+@media (max-width: 1200px) {
+  .group1 .group1_image2 {
+    width: 550px;
+    height: 550px;
+  }
+}
+@media (max-width: 768px) {
+  .group1 .group1_image2 {
+    width: 60%;
+    height: 40%;
+    top: 405px;
+  }
+}
+@media (max-width: 576px) {
+  .group1 .group1_image2 {
+    width: 60%;
+    height: 45%;
+    top: 365px;
+  }
+}
+.group1 .group1_heading {
+  position: absolute;
+  margin-left: 40%;
+  top: 200px;
+  font-family: "Rubik";
+  font-size: 56px;
+  color: #000000;
+}
+@media (max-width: 1400px) {
+  .group1 .group1_heading {
+    max-width: 300px;
+    font-size: 40px;
+    top: 150px;
+  }
+}
+@media (max-width: 1080px) {
+  .group1 .group1_heading {
+    max-width: 300px;
+    font-size: 40px;
+    top: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .group1 .group1_heading {
+    max-width: 300px;
+    font-size: 30px;
+    top: 150px;
+  }
+}
+.group1 .group1_para {
+  position: absolute;
+  width: 544px;
+  height: 67px;
+  margin-left: 40%;
+  top: 400px;
+  font-family: "Rubik";
+  font-size: 18px;
+  color: #2C2C2C;
+}
+@media (max-width: 1400px) {
+  .group1 .group1_para {
+    max-width: 300px;
+    font-size: 20px;
+    top: 300px;
+  }
+}
+@media (max-width: 1080px) {
+  .group1 .group1_para {
+    max-width: 300px;
+    font-size: 25px;
+    top: 290px;
+  }
+}
+@media (max-width: 768px) {
+  .group1 .group1_para {
+    max-width: 300px;
+    font-size: 20px;
+    top: 290px;
+  }
+}
+.group1 .group1_image3 {
+  position: absolute;
+  width: 207px;
+  height: 249px;
+  top: 600px;
+  right: -5vw;
+  bottom: 0;
+}
+@media (max-width: 576px) {
+  .group1 .group1_image3 {
+    width: 150px;
+    top: 580px;
+    height: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .group1 .group1_image3 {
+    width: 170px;
+    top: 550px;
+    height: 150px;
+  }
+}/*# sourceMappingURL=group1.component.css.map */

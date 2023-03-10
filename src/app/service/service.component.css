@@ -1,0 +1,38 @@
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.spara {
+  text-align: right;
+}
+
+.serviceImg {
+  position: absolute;
+}
+
+@media (max-width: 1200px) {
+  .serviceImg {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .serviceImg {
+    width: 350px;
+    height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .serviceImg {
+    width: 250px;
+    height: 170px;
+  }
+}
+@media (max-width: 768px) {
+  .spara {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=service.component.css.map */

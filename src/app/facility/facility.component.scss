@@ -1,0 +1,100 @@
+.fc{
+    margin-top: 100px;
+}
+
+
+.facilityImg{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-left: 80px;
+  
+    
+ }
+ .f3{
+    margin-top: 100px;
+ }
+ @media  (max-width: 1200px) {
+    .f3 {
+       margin-top: 50px;
+    }
+  }
+  @media  (max-width: 768px) {
+    .f3 {
+       margin-top: 30px;
+    }
+  }
+ 
+ 
+ 
+  
+  @media  (max-width: 1200px) {
+    .facilityImg {
+     height:260px ;
+     width:300px;
+    }
+  }
+  @media  (max-width: 992px) {
+    .facilityImg {
+     height:230px ;
+     width:250px;
+     margin-left: 70px;
+     
+    }
+  }
+  @media  (max-width: 768px) {
+    .facilityImg {
+     height:190px ;
+     width:200px;
+     margin-left: 40px;
+     
+    }
+  }
+
+
+  @media  (max-width: 992px) {
+    .fpara {
+     font-size: 13px;
+    }
+  }
+  @media  (max-width: 768px) {
+    .fpara {
+     font-size: 13px;
+     left: 100;
+    }
+  }
+
+  .img4{
+    position: absolute;
+width: 180px;
+height: 451px;
+left: -3%;
+  }
+  @media  (max-width: 1200px) {
+    .img4 {
+     height:360px ;
+     width:130px;
+     
+    }
+  }
+  @media  (max-width: 768px) {
+    .img4 {
+     height:300px ;
+     width:120px;
+     
+    }
+  }
+  @media  (max-width: 576px) {
+    .img4 {
+     height:270px ;
+     width:100px;
+     
+    }
+  }
+  @media  (max-width: 768px) {
+    .fc {
+   
+        margin-top: 40px;
+    }
+  }
+  

@@ -1,0 +1,99 @@
+.comm {
+    margin-top: 200px;
+}
+.commImg{
+    position: absolute;
+    left: 100px;
+}
+.cimg4{
+position: absolute;
+width: 250px;
+height: 400px;
+//right: -3%;
+right: -5vw;
+
+
+}
+@media  (max-width: 1200px) {
+    .commImg {
+    height:200px ;
+    width:400px ;
+    }
+  }
+  @media  (max-width: 992px) {
+    .commImg {
+    height:180px ;
+    width:280px ;
+    }
+  }
+  @media  (max-width: 768px) {
+    .commImg {
+    height:180px ;
+    width:200px ;
+    }
+  }
+  @media  (max-width: 576px) {
+    .commImg {
+    height:150px ;
+    width:160px ;
+    }
+  }
+
+
+  @media  (max-width: 1200px) {
+    .cimg4 {
+        width: 200px;
+        height: 300px;
+    }
+  }
+  @media  (max-width: 992px) {
+    .cimg4 {
+    height:230px ;
+    width:150px ;
+    }
+  }
+  @media  (max-width: 768px) {
+    .cimg4 {
+    height:200px ;
+    width:130px ;
+    }
+  }
+  @media  (max-width: 992px) {
+    .cpara {
+       // position: absolute;
+        font-size: 15px;
+       line-height: 20px;
+       top: 0;
+     
+       
+    
+     
+        
+    }
+ }
+ @media  (max-width: 576px) {
+  .cpara {
+     // position: absolute;
+      font-size: 13px;
+     line-height: 15px;
+     top: 0;
+   
+     
+  
+   
+      
+  }
+}
+
+ @media  (max-width: 992px) {
+    .comm {
+    margin-top: 100px;
+    }
+  }
+  @media  (max-width: 768px) {
+    .comm {
+    margin-top: 50px;
+    }
+  }
+
+

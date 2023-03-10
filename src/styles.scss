@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@mixin appImg {
+    position: absolute;
+    //top: 0;
+  }
+  @mixin font{
+    font-family: 'Rubik';
+    font-style: normal;
+  }

@@ -43,5 +43,13 @@
   .teamimg {
     width: 80px;
     height: 140px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .teamimg {
+    width: 80px;
+    height: 140px;
+    margin-left: 10px;
   }
 }/*# sourceMappingURL=team.component.css.map */

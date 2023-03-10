@@ -6,6 +6,12 @@
   top: 0px;
 }
 
+@media (max-width: 320px) {
+  .img {
+    width: 90px;
+    height: 111px;
+  }
+}
 .img1 {
   position: absolute;
   left: 130px;
@@ -35,9 +41,16 @@
 }
 @media (max-width: 576px) {
   .img1 {
-    width: 250px;
+    width: 220px;
     height: 75px;
     left: 110px;
+  }
+}
+@media (max-width: 320px) {
+  .img1 {
+    width: 150px;
+    height: 70px;
+    top: 60px;
   }
 }
 @media (max-width: 576px) {
@@ -70,10 +83,22 @@
     width: 170px;
   }
 }
+@media (max-width: 320px) {
+  .img3 {
+    height: 130px;
+    width: 100px;
+  }
+}
 @media (max-width: 576px) {
   .img4 {
     height: 200px;
     width: 170px;
+  }
+}
+@media (max-width: 320px) {
+  .img4 {
+    height: 160px;
+    width: 130px;
   }
 }
 .img5 {

@@ -61,6 +61,13 @@
     left: 30px;
   }
 }
+@media (max-width: 320px) {
+  .researchImg {
+    height: 170px;
+    width: 130px;
+    left: 20px;
+  }
+}
 .img5 {
   position: absolute;
   right: 0;
@@ -91,5 +98,11 @@
   .img5 {
     height: 200px;
     width: 110px;
+  }
+}
+@media (max-width: 320px) {
+  .img5 {
+    height: 170px;
+    width: 90px;
   }
 }/*# sourceMappingURL=research.component.css.map */

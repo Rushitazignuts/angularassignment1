@@ -43,6 +43,20 @@
     margin-left: 40px;
   }
 }
+@media (max-width: 576px) {
+  .facilityImg {
+    height: 190px;
+    width: 170px;
+  }
+}
+@media (max-width: 320px) {
+  .facilityImg {
+    height: 190px;
+    width: 140px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+}
 @media (max-width: 992px) {
   .fpara {
     font-size: 13px;
@@ -77,6 +91,12 @@
   .img4 {
     height: 270px;
     width: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .img4 {
+    height: 200px;
+    width: 70px;
   }
 }
 @media (max-width: 768px) {

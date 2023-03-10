@@ -4,7 +4,7 @@
     background-color: #BFDBFF;;
   //margin-left: 200px;
   margin: auto;
-  height: 210px;
+  height: 280px;
 }
 
 
@@ -42,7 +42,13 @@
   }
   @media  (max-width: 576px) {
     .fc {
-        width: 80%;
+        width: 83%;
+    }
+  }
+  @media  (max-width: 320px) {
+    .fc {
+        width: 83%;
+        margin-left: 20px;
     }
   }
 
@@ -52,7 +58,4 @@
         width: 150px;
         font-size: 10px;
     }
-  }
-  .lp{
-    margin-left:100px;
   }

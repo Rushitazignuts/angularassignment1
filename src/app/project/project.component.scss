@@ -1,5 +1,17 @@
-.pi{
+.pimg{
   width: 500px;
 }
+@media  (max-width: 576px) {
+  .pimg {
+   height:200px ;
+   width:350px;
+  }
+}
 
+@media  (max-width: 320px) {
+  .pimg {
+   height:160px ;
+   width:200px;
+  }
+}
   

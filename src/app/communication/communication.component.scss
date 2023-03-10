@@ -40,6 +40,13 @@ padding: 0 !important;
     left: 70px;
     }
   }
+  @media  (max-width: 320px) {
+    .commImg {
+    height:150px ;
+    width:120px ;
+    left: 0px;
+    }
+  }
 
 
   @media  (max-width: 1200px) {
@@ -64,6 +71,12 @@ padding: 0 !important;
     .cimg4 {
     height:170px ;
     width:80px ;
+    }
+  }
+  @media  (max-width: 320px) {
+    .cimg4 {
+    height:140px ;
+    width:60px ;
     }
   }
   @media  (max-width: 992px) {

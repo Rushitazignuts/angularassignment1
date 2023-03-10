@@ -61,6 +61,16 @@ h3,p{
         
     }
   }
+  @media  (max-width: 320px) {
+    .img {
+      width: 300px;
+       margin-left: 0px;
+     
+       
+       
+        
+    }
+  }
   @media  (max-width: 992px) {
     .aboutus {
        // position: absolute;
@@ -85,3 +95,5 @@ h3,p{
        
     }
   }
+  
+  

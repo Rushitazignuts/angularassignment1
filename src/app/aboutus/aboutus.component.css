@@ -45,6 +45,12 @@ h3, p {
     margin-left: 100px;
   }
 }
+@media (max-width: 320px) {
+  .img {
+    width: 300px;
+    margin-left: 0px;
+  }
+}
 @media (max-width: 992px) {
   .aboutus {
     margin-top: 0px;

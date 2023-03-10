@@ -50,6 +50,23 @@
      
     }
   }
+  @media  (max-width: 576px) {
+    .trainingImg {
+     height:190px ;
+     width:170px;
+     margin-left: 40px;
+     
+    }
+  }
+  @media  (max-width: 320px) {
+    .trainingImg {
+     height:190px ;
+     width:145px;
+     margin-left: 0px;
+     margin-top: 50px;
+     
+    }
+  }
 
 
   @media  (max-width: 992px) {

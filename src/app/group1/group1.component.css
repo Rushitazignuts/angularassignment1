@@ -12,13 +12,20 @@
   .group1 .group1_image1 {
     width: 240px;
     height: 330px;
-    top: 375px;
+    top: 435px;
   }
 }
 @media (max-width: 576px) {
   .group1 .group1_image1 {
     width: 180px;
     height: 310px;
+    top: 440px;
+  }
+}
+@media (max-width: 320px) {
+  .group1 .group1_image1 {
+    width: 100px;
+    height: 270px;
     top: 390px;
   }
 }
@@ -39,14 +46,21 @@
   .group1 .group1_image2 {
     width: 400px;
     height: 40%;
-    top: 333px;
+    top: 395px;
   }
 }
 @media (max-width: 576px) {
   .group1 .group1_image2 {
     width: 300px;
     height: 45%;
-    top: 280px;
+    top: 333px;
+  }
+}
+@media (max-width: 320px) {
+  .group1 .group1_image2 {
+    width: 180px;
+    height: 45%;
+    top: 240px;
   }
 }
 .group1 .group1_heading {
@@ -76,6 +90,13 @@
     max-width: 300px;
     font-size: 30px;
     top: 150px;
+  }
+}
+@media (max-width: 320px) {
+  .group1 .group1_heading {
+    max-width: 300px;
+    font-size: 20px;
+    top: 200px;
   }
 }
 .group1 .group1_para {
@@ -109,6 +130,13 @@
     top: 290px;
   }
 }
+@media (max-width: 320px) {
+  .group1 .group1_para {
+    max-width: 190px;
+    font-size: 12px;
+    top: 300px;
+  }
+}
 .group1 .group1_image3 {
   position: absolute;
   width: 207px;
@@ -118,6 +146,13 @@
   padding: 0 !important;
   bottom: 0;
 }
+@media (max-width: 768px) {
+  .group1 .group1_image3 {
+    width: 170px;
+    top: 600px;
+    height: 150px;
+  }
+}
 @media (max-width: 576px) {
   .group1 .group1_image3 {
     width: 150px;
@@ -125,10 +160,10 @@
     height: 150px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .group1 .group1_image3 {
-    width: 170px;
-    top: 550px;
-    height: 150px;
+    width: 100px;
+    top: 560px;
+    height: 100px;
   }
 }/*# sourceMappingURL=group1.component.css.map */

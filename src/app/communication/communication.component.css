@@ -11,7 +11,8 @@
   position: absolute;
   width: 250px;
   height: 400px;
-  right: -5vw;
+  right: 0;
+  padding: 0 !important;
 }
 
 @media (max-width: 1200px) {
@@ -36,6 +37,7 @@
   .commImg {
     height: 150px;
     width: 160px;
+    left: 70px;
   }
 }
 @media (max-width: 1200px) {
@@ -56,6 +58,12 @@
     width: 130px;
   }
 }
+@media (max-width: 576px) {
+  .cimg4 {
+    height: 170px;
+    width: 80px;
+  }
+}
 @media (max-width: 992px) {
   .cpara {
     font-size: 15px;
@@ -65,7 +73,7 @@
 }
 @media (max-width: 576px) {
   .cpara {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 15px;
     top: 0;
   }

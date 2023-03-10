@@ -26,6 +26,7 @@
   position: absolute;
   width: 643.63px;
   height: 550px;
+  top: 275px;
   z-index: -1;
 }
 @media (max-width: 1200px) {
@@ -36,16 +37,16 @@
 }
 @media (max-width: 768px) {
   .group1 .group1_image2 {
-    width: 60%;
+    width: 400px;
     height: 40%;
-    top: 405px;
+    top: 333px;
   }
 }
 @media (max-width: 576px) {
   .group1 .group1_image2 {
-    width: 60%;
+    width: 300px;
     height: 45%;
-    top: 365px;
+    top: 280px;
   }
 }
 .group1 .group1_heading {
@@ -113,7 +114,8 @@
   width: 207px;
   height: 249px;
   top: 600px;
-  right: -5vw;
+  right: 0;
+  padding: 0 !important;
   bottom: 0;
 }
 @media (max-width: 576px) {

@@ -32,6 +32,14 @@ h2{
         
     }
   }
+  @media  (max-width: 576px) {
+    .serviceImg {
+       // position: absolute;
+        width: 220px;
+        height: 140px;
+        
+    }
+  }
   @media  (max-width: 768px) {
     .spara {
        // position: absolute;

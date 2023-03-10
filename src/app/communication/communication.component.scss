@@ -10,7 +10,8 @@ position: absolute;
 width: 250px;
 height: 400px;
 //right: -3%;
-right: -5vw;
+right: 0;
+padding: 0 !important;
 
 
 }
@@ -36,6 +37,7 @@ right: -5vw;
     .commImg {
     height:150px ;
     width:160px ;
+    left: 70px;
     }
   }
 
@@ -58,6 +60,12 @@ right: -5vw;
     width:130px ;
     }
   }
+  @media  (max-width: 576px) {
+    .cimg4 {
+    height:170px ;
+    width:80px ;
+    }
+  }
   @media  (max-width: 992px) {
     .cpara {
        // position: absolute;
@@ -74,7 +82,7 @@ right: -5vw;
  @media  (max-width: 576px) {
   .cpara {
      // position: absolute;
-      font-size: 13px;
+      font-size: 11px;
      line-height: 15px;
      top: 0;
    

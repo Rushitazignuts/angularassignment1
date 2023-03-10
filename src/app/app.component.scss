@@ -14,7 +14,9 @@
       .img2{
       top: 0;
       //right: -3%;
-      right: -5vw;
+      //right: -5vw;
+      right: 0;
+padding: 0 !important;
       position: absolute;
       width: 359px;
       height: 376px;
@@ -83,7 +85,9 @@
           .img5{
             position: absolute;
             //right: -0.2%;
-            right: -5vw;
+            //right: -5vw;
+            right: 0;
+padding: 0 !important;
             width: 150px;
             height: 370px;
           }

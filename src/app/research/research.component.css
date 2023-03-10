@@ -28,6 +28,11 @@
     font-size: 13px;
   }
 }
+@media (max-width: 576px) {
+  .rpara {
+    font-size: 11px;
+  }
+}
 @media (max-width: 1200px) {
   .researchImg {
     height: 300px;
@@ -52,13 +57,14 @@
 @media (max-width: 576px) {
   .researchImg {
     height: 170px;
-    width: 230px;
+    width: 200px;
     left: 30px;
   }
 }
 .img5 {
   position: absolute;
-  right: -5vw;
+  right: 0;
+  padding: 0 !important;
   width: 250px;
   height: 431px;
 }
